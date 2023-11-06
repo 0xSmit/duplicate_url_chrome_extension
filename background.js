@@ -4,7 +4,6 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, currentTab) {
     //   Check if the URL is already live in another tab.
     chrome.tabs.query({}, function (tabs) {
       for (var i = 0; i < tabs.length; i++) {
-        console.log(i);
         if (
           tabs[i].url === currentTab.url &&
           tabs[i].id != currentTab.id &&
