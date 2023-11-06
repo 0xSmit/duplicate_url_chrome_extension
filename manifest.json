@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Duplicatre Tab Alert",
+  "name": "Duplicate Tab Alert",
   "version": "1.0",
   "description": "Alerts you when the website URL you enter is already open on another tab.",
   "permissions": ["tabs", "notifications"],
