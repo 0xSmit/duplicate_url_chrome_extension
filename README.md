@@ -1,4 +1,4 @@
-# Chrome Extension Name
+# Chrome Duplicate URL checker
 
 Chrome Duplicate URL checker
 
