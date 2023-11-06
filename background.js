@@ -16,7 +16,6 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, currentTab) {
             iconUrl: '/icon.png',
             type: 'basic',
           });
-          console.log('in break');
           break;
         }
       }
